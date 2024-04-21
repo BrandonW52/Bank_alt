@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Dev Bank</title>
+  </head>
+  <body class="font-ff-primary">
+    <header class="w-full bg-clr-primary">
+      <!-- Top Bar -->
+
+      <div
+        class="relative container flex items-center justify-between py-4 px-4 md:px-0 md:mx-auto"
+      >
+        <!-- Logo -->
+        <div class="">
+          <img src="./assets/logoipsum-280.svg" class="h-8" alt="Logo" />
+        </div>
+
+        <!-- Hamburger Icon -->
+        <button class="md:hidden" id="mobile-menu-toggle">
+          <img
+            class="h-10"
+            src="assets/burger-menu-svgrepo-com.svg"
+            alt="Hamburger menu"
+          />
+        </button>
+
+        <!-- Hamburger Menu -->
+        <div
+          class="absolute hidden md:hidden flex flex-col items-start justify-center gap-4 max-h-screen w-full left-0 top-full px-4 py-8 bg-clr-primary"
+          id="mobile-menu"
+        >
+          <!-- Mobile Nav -->
+          <nav class="flex flex-col gap-4">
+            <a
+              href="#getStarted"
+              class="text-clr-accent font-bold text-2xl duration-300 active:text-clr-light"
+              >Get Started</a
+            >
+
+            <a
+              href="#features"
+              class="text-clr-accent font-bold text-2xl duration-300 active:text-clr-light"
+              >Features</a
+            >
+
+            <a
+              href="#about"
+              class="text-clr-accent font-bold text-2xl duration-300 active:text-clr-light"
+              >About</a
+            >
+
+            <a
+              href="#contact"
+              class="text-clr-accent font-bold text-2xl duration-300 active:text-clr-light"
+              >Contact</a
+            >
+          </nav>
+
+          <!-- Mobile Buttons -->
+          <button
+            class="font-ff-secondary text-xl text-clr-light duration-300 active:text-clr-accent"
+          >
+            Log In
+          </button>
+          <button
+            class="bg-clr-light text-xl text-clr-accent border-4 border-clr-accent py-2 px-4 rounded-xl font-extrabold duration-300 active:bg-clr-accent active:text-clr-light active:border-clr-accent"
+          >
+            Sign Up
+          </button>
+        </div>
+
+        <!-- Tablet/Descktop View -->
+
+        <!-- Tablet/Descktop Nav -->
+        <nav class="hidden md:flex gap-12">
+          <a
+            href="#getStarted"
+            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            >Get Started</a
+          >
+
+          <a
+            href="#features"
+            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            >Features</a
+          >
+
+          <a
+            href="#about"
+            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            >About</a
+          >
+
+          <a
+            href="#contact"
+            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            >Contact</a
+          >
+        </nav>
+
+        <!-- Tablet/Desktop Buttons -->
+        <div class="hidden md:flex gap-4">
+          <button class="text-clr-light duration-300 hover:text-clr-accent">
+            Log In
+          </button>
+          <button
+            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light hover:border-clr-accent"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Get Started  -->
+      <div id="getStarted"></div>
+
+      <!-- Features -->
+      <div id="features"></div>
+
+      <!-- About -->
+      <div id="about"></div>
+
+      <!-- Contact -->
+      <div id="contact"></div>
+    </main>
+
+    <footer></footer>
+
+    <script>
+      document
+        .getElementById("mobile-menu-toggle")
+        .addEventListener("click", function () {
+          document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>
