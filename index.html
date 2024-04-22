@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="./build/style/style.css" />
     <title>Dev Bank</title>
   </head>
   <body class="font-ff-primary">
@@ -20,15 +20,15 @@
         class="relative container flex items-center justify-between py-4 px-4 md:px-0 md:mx-auto"
       >
         <!-- Logo -->
-        <div class="">
-          <img src="./assets/logoipsum-280.svg" class="h-8" alt="Logo" />
+        <div>
+          <img src="./build/assets/logoipsum-280.svg" class="h-8" alt="Logo" />
         </div>
 
         <!-- Hamburger Icon -->
         <button class="md:hidden" id="mobile-menu-toggle">
           <img
             class="h-10"
-            src="assets/burger-menu-svgrepo-com.svg"
+            src="./build/assets/burger-menu-svgrepo-com.svg"
             alt="Hamburger menu"
           />
         </button>
@@ -84,36 +84,38 @@
         <nav class="hidden md:flex gap-12">
           <a
             href="#getStarted"
-            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            class="font-bold text-clr-light text-2xl duration-300 hover:text-clr-accent hover:scale-125"
             >Get Started</a
           >
 
           <a
             href="#features"
-            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            class="font-bold text-clr-light text-2xl duration-300 hover:text-clr-accent hover:scale-125"
             >Features</a
           >
 
           <a
             href="#about"
-            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            class="font-bold text-clr-light text-2xl duration-300 hover:text-clr-accent hover:scale-125"
             >About</a
           >
 
           <a
             href="#contact"
-            class="font-bold text-clr-light duration-300 hover:text-clr-accent hover:scale-125"
+            class="font-bold text-clr-light text-2xl duration-300 hover:text-clr-accent hover:scale-125"
             >Contact</a
           >
         </nav>
 
         <!-- Tablet/Desktop Buttons -->
         <div class="hidden md:flex gap-4">
-          <button class="text-clr-light duration-300 hover:text-clr-accent">
+          <button
+            class="text-clr-light font-ff-secondary duration-300 hover:text-clr-accent"
+          >
             Log In
           </button>
           <button
-            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light hover:border-clr-accent"
+            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light"
           >
             Sign Up
           </button>
@@ -123,7 +125,88 @@
 
     <main>
       <!-- Get Started  -->
-      <div id="getStarted"></div>
+      <div
+        class="container mx-auto my-8 grid grid-cols-1 gap-16 md:grid-cols-2"
+        id="getStarted"
+      >
+        <!-- Call to action -->
+        <div class="text-center mx-2 md:text-left md:mx-0">
+          <h1 class="font-extrabold text text-3xl">
+            The Clever Place to Keep Your Cache
+          </h1>
+          <p class="font-ff-secondary">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+            dicta asperiores. Incidunt sunt commodi quos, quidem similique
+            doloremque velit odit fugit asperiores odio molestias nobis.
+            Repudiandae architecto ea voluptas error adipisci.
+          </p>
+          <button
+            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light"
+          >
+            Join Dev Now
+          </button>
+          <button
+            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light"
+          >
+            Join Our Discord Server
+          </button>
+        </div>
+
+        <div
+          class="bg-cover bg-center hidden md:block rounded-3xl"
+          style="
+            background-image: url(./build/assets/dmitry-korkhau-8c34G-QJU_o-unsplash.jpg);
+          "
+        ></div>
+      </div>
+
+      <!-- Endorsements -->
+      <div class="w-full py-4 bg-clr-primary">
+        <div class="container mx-auto flex flex-col items-center">
+          <h3
+            class="font-ff-secondary pb-8 text-xl text-clr-accent md:text-2xl"
+          >
+            Endorsed by global companies like
+          </h3>
+
+          <div class="w-full flex justify-around md:justify-between">
+            <!-- VSC Logo -->
+            <img
+              src="./build/assets/visual-studio-145-svgrepo-com.svg"
+              class="h-16"
+              alt="Visual studio code logo"
+            />
+
+            <!-- GitHub Logo -->
+            <img
+              src="./build/assets/logo-github-svgrepo-com.svg"
+              class="h-16"
+              alt="Visual studio code logo"
+            />
+
+            <!-- Tux logo -->
+            <img
+              src="./build/assets/logo-tux-svgrepo-com.svg"
+              class="h-16"
+              alt="Visual studio code logo"
+            />
+
+            <!-- Python Logo -->
+            <img
+              src="./build/assets/logo-python-svgrepo-com.svg"
+              class="h-16"
+              alt="Visual studio code logo"
+            />
+
+            <!-- Google Logo -->
+            <img
+              src="./build/assets/logo-google-svgrepo-com.svg"
+              class="h-16"
+              alt="Visual studio code logo"
+            />
+          </div>
+        </div>
+      </div>
 
       <!-- Features -->
       <div id="features"></div>
