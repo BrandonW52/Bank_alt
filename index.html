@@ -131,22 +131,22 @@
       >
         <!-- Call to action -->
         <div class="text-center mx-2 md:text-left md:mx-0">
-          <h1 class="font-extrabold text text-3xl">
+          <h1 class="font-extrabold text-3xl text-clr-accent">
             The Clever Place to Keep Your Cache
           </h1>
-          <p class="font-ff-secondary">
+          <p class="font-ff-secondary mb-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
             dicta asperiores. Incidunt sunt commodi quos, quidem similique
             doloremque velit odit fugit asperiores odio molestias nobis.
             Repudiandae architecto ea voluptas error adipisci.
           </p>
           <button
-            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light"
+            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-light hover:bg-clr-primary"
           >
             Join Dev Now
           </button>
           <button
-            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-accent hover:bg-clr-light"
+            class="bg-clr-accent text-clr-light py-2 px-4 rounded-xl font-extrabold duration-300 hover:text-clr-light hover:bg-clr-primary"
           >
             Join Our Discord Server
           </button>
@@ -155,13 +155,13 @@
         <div
           class="bg-cover bg-center hidden md:block rounded-3xl"
           style="
-            background-image: url(./build/assets/dmitry-korkhau-8c34G-QJU_o-unsplash.jpg);
+            background-image: url(./build/assets/images/dmitry-korkhau-8c34G-QJU_o-unsplash.jpg);
           "
         ></div>
       </div>
 
       <!-- Endorsements -->
-      <div class="w-full py-4 bg-clr-primary">
+      <div class="w-full py-8 bg-clr-primary my-8">
         <div class="container mx-auto flex flex-col items-center">
           <h3
             class="font-ff-secondary pb-8 text-xl text-clr-accent md:text-2xl"
@@ -172,44 +172,184 @@
           <div class="w-full flex justify-around md:justify-between">
             <!-- VSC Logo -->
             <img
-              src="./build/assets/visual-studio-145-svgrepo-com.svg"
+              src="./build/assets/endorsements-svg/visual-studio-145-svgrepo-com.svg"
               class="h-16"
               alt="Visual studio code logo"
             />
 
             <!-- GitHub Logo -->
             <img
-              src="./build/assets/logo-github-svgrepo-com.svg"
+              src="./build/assets/endorsements-svg/logo-github-svgrepo-com.svg"
               class="h-16"
-              alt="Visual studio code logo"
+              alt="GitHub logo"
             />
 
             <!-- Tux logo -->
             <img
-              src="./build/assets/logo-tux-svgrepo-com.svg"
+              src="./build/assets/endorsements-svg/logo-tux-svgrepo-com.svg"
               class="h-16"
-              alt="Visual studio code logo"
+              alt="Tux logo"
             />
 
             <!-- Python Logo -->
             <img
-              src="./build/assets/logo-python-svgrepo-com.svg"
+              src="./build/assets/endorsements-svg/logo-python-svgrepo-com.svg"
               class="h-16"
-              alt="Visual studio code logo"
+              alt="Python logo"
             />
 
             <!-- Google Logo -->
             <img
-              src="./build/assets/logo-google-svgrepo-com.svg"
+              src="./build/assets/endorsements-svg/logo-google-svgrepo-com.svg"
               class="h-16"
-              alt="Visual studio code logo"
+              alt="Google logo"
             />
           </div>
         </div>
       </div>
 
       <!-- Features -->
-      <div id="features"></div>
+      <div class="container mx-auto text-center" id="features">
+        <h1 class="text-3xl font-extrabold text-clr-accent">
+          Elevate Your Banking with Dev
+        </h1>
+
+        <p class="px-4 pb-8 font-ff-secondary">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nemo
+          ratione fuga cum officiis incidunt voluptatem blanditiis, numquam
+          corrupti animi voluptates sunt, vitae illum sequi temporibus et eaque
+          ipsum, modi alias fugit!
+        </p>
+
+        <!-- Card Container -->
+        <div class="grid grid-cols-1 gap-12 mx-4 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/cards-svg/account-management-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt=""
+            />
+            <h3
+              class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Developer-Focused Account Plans
+            </h3>
+            <p class="font-ff-secondary text-clr-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quos magnam ea ipsam repellat assumenda possimus. Unde,
+              quaerat.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/cards-svg/web-page-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt=""
+            />
+            <h3
+              class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Advanced Online Banking Platform
+            </h3>
+            <p class="font-ff-secondary text-clr-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quos magnam ea ipsam repellat assumenda possimus. Unde,
+              quaerat.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/cards-svg/screen-users-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt=""
+            />
+            <h3
+              class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Tech-Savvy Customer Support
+            </h3>
+            <p class="font-ff-secondary text-clr-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quos magnam ea ipsam repellat assumenda possimus. Unde,
+              quaerat.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/cards-svg/security-card-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt=""
+            />
+            <h3
+              class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              High-Level Security Features
+            </h3>
+            <p class="font-ff-secondary text-clr-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quos magnam ea ipsam repellat assumenda possimus. Unde,
+              quaerat.
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/cards-svg/tool-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt=""
+            />
+            <h3
+              class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Innovative Financial Tools
+            </h3>
+            <p class="font-ff-secondary text-clr-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quos magnam ea ipsam repellat assumenda possimus. Unde,
+              quaerat.
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/cards-svg/networking-share-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt=""
+            />
+            <h3
+              class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Community and Networking Opportunities
+            </h3>
+            <p class="font-ff-secondary text-clr-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quos magnam ea ipsam repellat assumenda possimus. Unde,
+              quaerat.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <!-- About -->
       <div id="about"></div>
