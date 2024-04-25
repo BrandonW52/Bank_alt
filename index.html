@@ -209,7 +209,7 @@
       </div>
 
       <!-- Features -->
-      <div class="container mx-auto text-center" id="features">
+      <div class="container mx-auto my-8 text-center" id="features">
         <h1 class="text-3xl font-extrabold text-clr-accent">
           Elevate Your Banking with Dev
         </h1>
@@ -230,7 +230,7 @@
             <img
               src="./build/assets/cards-svg/account-management-svgrepo-com.svg"
               class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
-              alt=""
+              alt="Account icon"
             />
             <h3
               class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
@@ -251,7 +251,7 @@
             <img
               src="./build/assets/cards-svg/web-page-svgrepo-com.svg"
               class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
-              alt=""
+              alt="Webpage icon"
             />
             <h3
               class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
@@ -272,7 +272,7 @@
             <img
               src="./build/assets/cards-svg/screen-users-svgrepo-com.svg"
               class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
-              alt=""
+              alt="Customer support icon"
             />
             <h3
               class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
@@ -293,7 +293,7 @@
             <img
               src="./build/assets/cards-svg/security-card-svgrepo-com.svg"
               class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
-              alt=""
+              alt="Security icon"
             />
             <h3
               class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
@@ -314,7 +314,7 @@
             <img
               src="./build/assets/cards-svg/tool-svgrepo-com.svg"
               class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
-              alt=""
+              alt="Tools icon"
             />
             <h3
               class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
@@ -335,7 +335,7 @@
             <img
               src="./build/assets/cards-svg/networking-share-svgrepo-com.svg"
               class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
-              alt=""
+              alt="Networking icon"
             />
             <h3
               class="text-xl font-bold text-clr-accent group-hover:text-clr-primary"
@@ -352,10 +352,196 @@
       </div>
 
       <!-- About -->
-      <div id="about"></div>
+      <div class="container mx-auto my-16" id="about">
+        <!-- Stats Container -->
+        <div class="grid grid-cols-1 gap-12 mx-4 md:grid-cols-2 lg:grid-cols-4">
+          <!-- Stat 1 -->
+          <div class="text-center">
+            <h1 class="text-5xl font-extrabold text-clr-accent">
+              <span id="contto1" countto="250">250</span>+
+            </h1>
+            <h3 class="font-ff-secondary">Hours Saved Sitting in the bank</h3>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="text-center">
+            <h1 class="text-5xl font-extrabold text-clr-accent">
+              <span id="countto2" countto="12">12</span>m
+            </h1>
+            <h3 class="font-ff-secondary">Credits Saved</h3>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="text-center">
+            <h1 class="text-5xl font-extrabold text-clr-accent">
+              <span id="countto3" countto="2600" data-decimal="1">2.8</span>k+
+            </h1>
+            <h3 class="font-ff-secondary">Global Partners</h3>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="text-center">
+            <h1 class="text-5xl font-extrabold text-clr-accent">
+              <span id="countto4" countto="18000">18,000</span>+
+            </h1>
+            <h3 class="font-ff-secondary">Happy Devs</h3>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-16 md:grid-cols-2">
+          <!-- Image -->
+          <div
+            class="bg-cover bg-center hidden md:block rounded-3xl"
+            style="
+              background-image: url(./build/assets/images/thomas-drouault-h7PJC8pvmHI-unsplash.jpg);
+            "
+          ></div>
+
+          <div class="text-center md:text-left">
+            <h1 class="text-3xl font-extrabold text-clr-accent">
+              How Dev Works
+            </h1>
+            <p class="font-ff-secondary mx-4 mb-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              ea minima nihil, id, voluptate quaerat officia debitis suscipit
+              porro ducimus aliquam modi laboriosam natus magnam.
+            </p>
+            <!-- Steps Container -->
+            <div class="grid grid-cols-1 gap-4 mx-4 md:grid-cols-2">
+              <!-- Step 1 -->
+              <div>
+                <span
+                  class="text-2xl px-2 rounded-full text-clr-light bg-clr-accent"
+                  >1</span
+                >
+                <h2 class="text-xl font-bold">Vist Dev Bank Wepsite</h2>
+                <p class="font-ff-secondary">
+                  Go to Cache Bank, click "Sign Up" or "Open an Account."
+                </p>
+              </div>
+
+              <!-- Step 2 -->
+              <div>
+                <span
+                  class="text-2xl px-2 rounded-full text-clr-light bg-clr-primary"
+                  >2</span
+                >
+                <h2 class="text-xl font-bold">Choose Account Type</h2>
+                <p class="font-ff-secondary">
+                  Select from checkings,savings, or developer-specific accounts.
+                </p>
+              </div>
+
+              <!-- Step 3 -->
+              <div>
+                <span
+                  class="text-2xl px-2 rounded-full text-clr-light bg-clr-primary"
+                  >3</span
+                >
+                <h2 class="text-xl font-bold">Provide Personal Information</h2>
+                <p class="font-ff-secondary">
+                  Complete the form with your details and identification for
+                  security.
+                </p>
+              </div>
+
+              <!-- Step 4 -->
+              <div>
+                <span
+                  class="text-2xl px-2 rounded-full text-clr-light bg-clr-accent"
+                  >4</span
+                >
+                <h2 class="text-xl font-bold">Verify and Submit</h2>
+                <p class="font-ff-secondary">
+                  Check your information, agree to terms, and submit for account
+                  approval.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Contact -->
-      <div id="contact"></div>
+      <div class="container mx-auto my-16" id="contact">
+        <!-- Contact Container -->
+        <div class="grid grid-cols-1 gap-12 mx-4 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/contact-svg/email-open-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt="Email icon"
+            />
+            <h1
+              class="text-2xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Email
+            </h1>
+            <p class="font-ff-secondary text-clr-light">Contact us at</p>
+            <a
+              class="text-lg font-bold text-clr-accent group-hover:text-clr-primary"
+              href="mailto:info@devbank.com"
+            >
+              info@devbank.com
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/contact-svg/phone-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt="Email icon"
+            />
+            <h1
+              class="text-2xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Phone
+            </h1>
+            <p class="font-ff-secondary text-clr-light">
+              Reach out to us by phone
+            </p>
+            <a
+              class="text-lg font-bold text-clr-accent group-hover:text-clr-primary"
+              href="tel: +999-999-9999"
+            >
+              +999-999-9999
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="flex flex-col items-center p-4 gap-2 rounded-2xl bg-clr-primary duration-300 group hover:bg-clr-accent"
+          >
+            <img
+              src="./build/assets/contact-svg/email-open-svgrepo-com.svg"
+              class="h-12 w-fit p-2 bg-clr-accent rounded-2xl group-hover:bg-clr-primary"
+              alt="Email icon"
+            />
+            <h1
+              class="text-2xl font-bold text-clr-accent group-hover:text-clr-primary"
+            >
+              Location
+            </h1>
+            <p class="font-ff-secondary text-clr-light">
+              Find us at our office
+            </p>
+            <a
+              class="text-lg font-bold text-clr-accent group-hover:text-clr-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps"
+            >
+              Dev Bank, Cape Town
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer></footer>
@@ -367,5 +553,8 @@
           document.getElementById("mobile-menu").classList.toggle("hidden");
         });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
   </body>
 </html>
